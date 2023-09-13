@@ -117,7 +117,7 @@ const HeroSection = React.memo(() => {
           classes="ml-3"
           type={ButtonTypes.PRIMARY}
           name="Let's Talk"
-          href={SOCIAL_LINKS.topmate}
+          href=""
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
