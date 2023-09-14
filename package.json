@@ -29,7 +29,7 @@
     "typescript": "^4.2.4"
   },
   "license": "MIT",
-  "copyright.owner": "Ayush Singh",
+  "copyright.owner": "Youness Marour",
   "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
   "main": "postcss.config.js",
   "keywords": [],
