@@ -78,6 +78,16 @@ export const PROJECTS: IProject[] = [
     tech: ["","react", "", "bootstrap"],
   },
   {
+    name: "MOVIES Website",
+    image: "/projects/Movies.jpg",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description: "React + Redux ",
+    url: "https://master--jade-manatee-1bfd40.netlify.app/",
+    gradient: ["#1F6582", "#1ABCFE"],
+    
+    tech: ["react", "redux", "svg"],
+  },
+  {
     name: "DAYSHOP Website",
     image: "/projects/dlt-website.jpg",
     blurImage: "/projects/blur/dlt-website-blur.jpg",
@@ -85,6 +95,15 @@ export const PROJECTS: IProject[] = [
     gradient: ["#245B57", "#004741"],
     url: "#",
     tech: ["react", "material", "bootstrap"],
+  },
+  {
+    name: "PORTFOLIO Website",
+    image: "/projects/portfolio.jpg",
+    blurImage: "/projects/blur/myokr-blur.jpg",
+    description: "React bootstrap + material ui ",
+    gradient: ["#153BB9", "#0E2C8B"],
+    url: "#",
+    tech: ["","react", "", "bootstrap","css"],
   },
   {
     name: "WINDEV Apps",
@@ -102,6 +121,7 @@ export const SKILLS = {
   frontend: [
     "javascript",
     "react",
+    "redux",
   
     "svg",
     "html",
