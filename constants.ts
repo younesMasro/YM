@@ -33,11 +33,13 @@ export const MENULINKS = [
 export const TYPED_STRINGS = [
   "A pragmatic Frontend Developer",
   "I build things for the web",
+  "Webflow Developer with 3D things",
   "I design and develop things",
   "I develop applications with WinDev",
+  
 ];
 
-export const EMAIL = "ayush.singh.xda@gmail.com";
+export const EMAIL = "younes.masrour59@gmail.com";
 
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/younessmasrour/",
@@ -60,6 +62,24 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
+    name: "PRODUCT DIGITAL Website",
+    image: "/projects/younessWeb.jpg",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description: "Webflow + HTML CSS JS.",
+    gradient: ["#3b3b3b", "#3b3b3b"],
+    url: "https://unrivaled-youtiao-5873f3.netlify.app/",
+    tech: ["webflw","css","javascript","html"],
+  },
+  {
+    name: "INTERACTIONS Website",
+    image: "/projects/ineractions.jpg",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description: "Webflow + HTML CSS JS.",
+    gradient: ["#FC6969", "#F60A0A"],
+    url: "https://luminous-blancmange-d743f1.netlify.app/",
+    tech: ["webflw","css","javascript","html","svg"],
+  },
+  {
     name: "STYLEWOX Website",
     image: "/projects/figgen.jpg",
     blurImage: "/projects/blur/figgen-blur.jpg",
@@ -67,6 +87,24 @@ export const PROJECTS: IProject[] = [
     gradient: ["#1F6582", "#1ABCFE"],
     url: "https://stylewox.com/",
     tech: ["wordpress", "elementor", "woocommerce"],
+  },
+  {
+    name: "POMADA SAFRA Website",
+    image: "/projects/Pomadasafra.jpg",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description: "Webflow + HTML CSS JS.",
+    gradient: ["#C56BFF", "#570090"],
+    url: "https://tubular-sfogliatella-9e68f6.netlify.app/",
+    tech: ["webflw","css","javascript","svg"],
+  },
+  {
+    name: "MORO SHOES Website",
+    image: "/projects/moro-shoes.jpg",
+    blurImage: "/projects/blur/figgen-blur.jpg",
+    description: "Wordpress elementor + woocommerce + JS.",
+    gradient: ["#737373", "#1E1E1E"],
+    url: "https://moro-shoes.com/",
+    tech: ["wordpress", "elementor", "woocommerce","javascript"],
   },
   {
     name: "DEV POINT Website",
@@ -119,16 +157,18 @@ export const PROJECTS: IProject[] = [
 
 export const SKILLS = {
   frontend: [
+    "webflw",
     "javascript",
     "react",
-    "redux",
   
+
     "svg",
     "html",
     "css",
+    "wordpress",
   ],
   userInterface: ["mysql", "hfsql"],
-  other: ["windev","photoshop", "figma","wordpress"],
+  other: ["windev","photoshop", "figma"],
 };
 
 export enum Branch {
@@ -161,12 +201,34 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
+    title: "WEB DESIGN💯🚀🎯",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Strategic Webflow Developer with a flair for 3D integration ",
+    
+    slideImage: "/timeline/webflow.jpeg",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
     title: "LICENSE🎓",
     size: ItemSize.SMALL,
     subtitle:
       "Professional university license application design and development engineering ",
     
     slideImage: "/timeline/lisence.jpeg",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "WEBFLOW🌐",
+    size: ItemSize.SMALL,
+    subtitle:
+      "webflow Certificate  ",
+    
+    slideImage: "/timeline/Certificate.jpg",
     shouldDrawLine: true,
     alignment: Branch.RIGHT,
   },
