@@ -1,10 +1,10 @@
 
 
 export const METADATA = {
-  title: "Portfolio | Youness Masrour",
+  title: "Portfolio | Youness",
   description:
     "XXXXXXXXXXXXXXXXX",
-  siteUrl: "https://ayushsingh.net/",
+  siteUrl: "https://younessweb.net/",
 };
 
 export const MENULINKS = [
@@ -42,9 +42,9 @@ export const TYPED_STRINGS = [
 export const EMAIL = "younes.masrour59@gmail.com";
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/in/younessmasrour/",
+  linkedin: "https://www.linkedin.com/company/younessweb",
   github: "https://github.com/younesMasro",
-  instagram: "https://www.instagram.com/younes_masrour/",
+  instagram: "https://www.instagram.com/youness_web/",
   //facebook: "https://www.facebook.com/ayush013",
 
   

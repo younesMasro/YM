@@ -29,7 +29,17 @@ const Footer = () => {
         <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
-          name="CV"
+          name="CV En"
+          otherProps={{
+            target: "_blank",
+            rel: "noreferrer",
+          }}
+          href="/YOUNESS MASROUR NEW CV Eng.pdf"
+        ></Button>
+        <Button
+          classes="mr-3"
+          type={ButtonTypes.OUTLINE}
+          name="CV Fr"
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
@@ -39,8 +49,8 @@ const Footer = () => {
         <Button
           classes="ml-3"
           type={ButtonTypes.WHITE}
-          name="Let's Talk"
-          href="#"
+          name="Email"
+          href=""
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
@@ -49,7 +59,7 @@ const Footer = () => {
         ></Button>
       </div>
       <h2 className="text-center text-sm sm:text-base mt-8">
-        Designed and Developed with ❤️ by Youness
+        Designed and Developed with ❤️ by Youness<br></br>younes.masroure@gmail.com
       </h2>
     </>
   );
@@ -58,9 +68,9 @@ const Footer = () => {
 //Email
 const handleEmailClick = () => {
   // Replace 'your-email@example.com' with your actual email address
-  const email = 'younes.masrour59@gmail.com';
+  const email = 'younes.masroure@gmail.com';
   const subject = 'Anything';
-  const body = "Hi there!\n\nI'm interested in discussing potential opportunities.\n\nCheers,  YOUNESS MASROUR";
+  const body = "Hi there!\n\nI'm interested in discussing potential opportunities.\n\nCheers,  YounessWeb";
 
   const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 

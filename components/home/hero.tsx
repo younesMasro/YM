@@ -36,7 +36,7 @@ const HeroSection = React.memo(() => {
   };
   const handleEmailClick = () => {
     // Replace 'your-email@example.com' with your actual email address
-    const email = 'younes.masrour59@gmail.com';
+    const email = 'younes.masroure@gmail.com';
     const subject = 'Anything';
     const body = "Hi there!\n\nI'm interested in discussing potential opportunities.\n\nCheers,  YOUNESS MASROUR";
   
@@ -99,16 +99,7 @@ const HeroSection = React.memo(() => {
       </p>
       <div className="flex seq mb-5">{renderSocialLinks()}</div>
       <div className="flex seq">
-        <Button
-          classes="mr-3"
-          type={ButtonTypes.OUTLINE}
-          name="CV"
-          otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
-          }}
-          href="/MON_CV.pdf"
-        ></Button>
+        
         <Button
           classes="ml-3"
           type={ButtonTypes.PRIMARY}
